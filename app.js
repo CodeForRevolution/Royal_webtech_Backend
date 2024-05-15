@@ -6,7 +6,7 @@ const errormiddleware=require("./backend/middleware/error")
 const cookieParser =require("cookie-parser");
 const bodyParser=require("body-parser")
 const cors=require("cors")
-  const allowedOrigins = ['http://localhost:3000','https://royal-webtech-mmdm.vercel.app/']; // setting list of origin that can request to this server
+  const allowedOrigins = ['http://localhost:3000','https://royal-webtech-mmdm.vercel.app/','https://royal-webtech-mmdm.vercel.app']; // setting list of origin that can request to this server
   app.use(cors({
     origin: allowedOrigins,
     credentials: true,
